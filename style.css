@@ -1,0 +1,65 @@
+.game{
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+
+
+}
+body{
+    background-image:url(img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#tit1{
+    color: green;
+    background-color: black;
+    font-family: Arial Black;
+}
+#tit2{
+    color: red;
+    background-color: black;
+    font-family: Lucida Handwriting;
+    font-weight: bold;
+    font-size: 20px;
+}
+.title{
+    color: yellowgreen;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.124);
+    margin-bottom: 12px;
+    border-radius: 25px;
+    
+
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background: blue;
+    float: left;
+    margin: 1.5px;
+    font-size: 50px;
+    border-radius: 15px;
+ }
+.square:hover{
+    background: rgb(7, 56, 121);
+}
+
+button{
+    cursor: pointer;
+    font-size: 25px;
+    background: rgb(135, 135, 228);
+    border: none;
+    position: relative;
+    bottom: 5px;
+    color: aquamarine;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .game{
+        width: 250px;
+    }
+}

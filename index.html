@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <title>Game :X-O</title>
+</head>
+<body
+        <div>
+            <marquee scrollamount="10" loop="1" ><span id="tit1">Created By</span> :<span id="tit2"> Taher</span></marquee>
+        </div>
+    <div class="game">
+        <div class="title">X-O Game</div>
+        <div><button onclick="refresh()""><i class="fa-solid fa-arrows-rotate"></i></button></div>
+        <div class="square"  onclick="game(this.id)" id="item1"></div>
+        <div class="square"  onclick="game(this.id)" id="item2"></div>
+        <div class="square"  onclick="game(this.id)" id="item3"></div>
+        <div class="square"  onclick="game(this.id)" id="item4"></div>
+        <div class="square"  onclick="game(this.id)" id="item5"></div>
+        <div class="square"  onclick="game(this.id)" id="item6"></div>
+        <div class="square"  onclick="game(this.id)" id="item7"></div>
+        <div class="square"  onclick="game(this.id)" id="item8"></div>
+        <div class="square"  onclick="game(this.id)" id="item9"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
